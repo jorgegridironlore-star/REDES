@@ -13,7 +13,7 @@ FPS = 30; W1, H1 = 1080, 1920; W2, H2 = 2160, 3840
 AUDIO = os.path.join(HERE, 'hoops_lore_02_voz.mp3')
 LOGO = os.path.join(HERE, 'hoops_lore_logo.png')
 HANDLE = '@hoopslore0'
-PH = json.load(open(os.path.join(HERE, 'times.json')))
+PH = json.load(open(os.path.join(HERE, 'times_02.json')))
 DUR = float(subprocess.check_output(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', AUDIO]))
 NFR = int(DUR * FPS)
 def ps(i): return PH[i]['start']
