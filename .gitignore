@@ -1,0 +1,7 @@
+*_master.mp4
+seg*.mp4
+segs.txt
+test_*.jpg
+__pycache__/
+*.log
+fonts/
